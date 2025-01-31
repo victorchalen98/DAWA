@@ -1,0 +1,42 @@
+version: '3.1'
+services:
+  proyecto_front:
+    container_name: examen_front
+    image: 'dawa_ws_image:latest'
+    restart: always
+    ports:
+      - '3005:3005'
+    volumes:
+      - /home/victor/Documentos/ProyectosPython/LOGS:/examen/ws_dawa/src/utils/general/LOGS
+    networks:
+      - app_rol_net
+
+  proyecto_back:
+    container_name: examen_back
+    image: 'dawa_ws_image:latest'
+    restart: always
+    ports:
+      - '1011:1011'
+    volumes:
+      - /home/victor/Documentos/ProyectosPython/LOGS:/examen/ws_dawa/src/utils/general/LOGS
+    networks:
+      - app_rol_net
+
+  db:
+    container_name: examen_base
+    image: 'postgres:latest'
+    restart: always
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+    ports:
+      - '5432:5432'
+    volumes:
+      - /home/victor/Documentos/ProyectosPython/LOGS:/examen/ws_dawa/src/utils/general/LOGS
+    networks:
+      - app_rol_net
+
+networks:
+  app_rol_net:
+    external: true

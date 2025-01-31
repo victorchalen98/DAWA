@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #1e1e2e;
+    --button-pink: #f38ba8 ;
+    --blue: #74c7ec;
+    --button-hover: #a6e3a1;
+    --font: #cdd6f4;
+}
+
+.contenedor-principal {
+    background-color: var(--background);
+}
+
+.contenedor-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: var(--font);
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.cabecera {
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+.cabecera header {
+    color: var(--font);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.etiqueta .campo-valores {
+    width: 100%;
+    height: 60px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    
+   /* box-shadow: 0px 5px 10px 1px rgba(103, 198, 227, 0.178);*/
+    outline: none;
+    transition: .3s;
+}
+
+::placeholder {
+    font-weight: 500;
+    color: #222;
+}
+
+.campo-valores:focus {
+    width: 105%;
+}
+
+.iniciar-sesion {
+    margin-top: 20px;
+    position: relative;
+}
+
+.btn-login {
+    width: 100%;
+    height: 60px;
+    background: var(--button-pink);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.iniciar-sesion label {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background: var(--button-hover);
+    transform: scale(1.05, 1);
+}
+
+.sign-up-link {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    color: var(--font);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sign-up-link a {
+    color: var(--font);
+    font-weight: 600;
+}
+
+.texto-error{
+    color: red;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,51 @@
+.boton-sesion-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+
+.usuario-conectado {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+.boton-sesion {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.boton-iniciar-sesion {
+    background-color: #28a745;
+}
+
+.boton-iniciar-sesion:hover {
+    background-color: #218838;
+}
+
+
+.boton-cerrar-sesion {
+    background-color: #dc3545;
+}
+
+.boton-cerrar-sesion:hover {
+    background-color: #c82333;
+}
+
+
+.boton-sesion:active {
+    transform: scale(0.95);
+}

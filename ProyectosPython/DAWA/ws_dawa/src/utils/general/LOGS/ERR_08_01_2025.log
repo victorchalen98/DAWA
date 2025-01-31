@@ -1,0 +1,2 @@
+20:31:07 - ERR - getRecords - (UndefinedTable('relation "data.tb_user" does not exist\nLINE 1: SELECT count (*) as valor FROM data.tb_user WHERE u_login = ...\n                                       ^\n'),)
+20:31:07 - ERR - Login - (KeyError(None),)

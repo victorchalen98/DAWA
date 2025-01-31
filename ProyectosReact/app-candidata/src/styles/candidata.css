@@ -1,0 +1,32 @@
+.contenedor_candidata {
+    width: 1080px;
+    height: 360px;
+    margin: 10px, 10px, 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0, 3px, 12px, 1px rgb(0, 0, 0/9);
+}
+
+.imagen_candidata {
+    height: 100%;
+    width: auto;
+}
+
+.contenedor_datos_candidata {
+    text-align: left;
+    padding: 40px;
+    font-family: sans-serif, Arial;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.texto_datos {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}

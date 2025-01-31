@@ -1,0 +1,87 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+
+.pagina-principal-container {
+  max-width: 800px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.input-busqueda {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse; 
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #ddd; 
+}
+
+.table thead {
+  background-color: #007bff;
+  color: white;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd; 
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+
+.boton-cerrar-sesion {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.boton-cerrar-sesion:hover {
+  background-color: #c82333;
+}

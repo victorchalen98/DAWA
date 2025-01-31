@@ -1,0 +1,4 @@
+14:04:56 - ERR - token_validate - (DecodeError('Not enough segments'),)
+14:04:56 - ERR - get - (TypeError('response_error() takes 1 positional argument but 2 were given'),)
+16:33:56 - ERR - token_validate - (DecodeError('Not enough segments'),)
+16:35:04 - ERR - getRecords - (UndefinedColumn('column "state" does not exist\nLINE 1: SELECT * FROM dawa.tb_user WHERE state = true\n                                         ^\nHINT:  Perhaps you meant to reference the column "tb_user.u_state".\n'),)

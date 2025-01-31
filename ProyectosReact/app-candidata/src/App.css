@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 18px;
+  background-color: #f5f6f7;
+}
+
+.titulo_pagina {
+  max-width: 940px;
+  font-size: 1.5 em;
+  font-family: sans-serif, Arial;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px;
+  text-align: center;
+}
+
+.contenedor_app{
+  min-height: 300px;
+  font-size: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

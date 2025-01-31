@@ -1,0 +1,7 @@
+09:35:17 - INF - <module> - ('Servicio Iniciado',)
+09:35:18 - INF - <module> - ('Servicio Iniciado',)
+09:35:40 - INF - post - ('Servicio de Login Ejecutando',)
+09:35:52 - INF - get - ('Servicio de Consulta de Usuarios Ejecutando',)
+09:36:19 - INF - post - ('Servicio de Login Ejecutando',)
+09:36:38 - INF - <module> - ('Servicio Finalizado',)
+09:36:38 - INF - <module> - ('Servicio Finalizado',)

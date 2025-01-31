@@ -1,0 +1,31 @@
+version: '3.1'
+
+services:
+  backend:
+    container_name: backend_service
+    image: 'backend_image:latest'
+    restart: always
+    ports:
+      - '5000:5000'
+    volumes:
+      - /home/victor/Documentos/data/LOGS/backend:/app/dawa/src/utils/general/LOGS
+
+  frontend:
+    container_name: frontend_service
+    image: 'frontend_image:latest'
+    restart: always
+    ports:
+      - '3000:3000'
+    volumes:
+      - /home/victor/Documentos/data/LOGS/frontend:/app/dawa/src/utils/general/LOGS
+
+## version: '3.1'
+#services:
+#  frontend:
+#    container_name: dawa_ws
+#    image: 'dawa_ws_image:latest'
+#    restart: always
+#    ports:
+#      - '1008:1011'
+#    volumes:
+#      - c:/JCCR/data/LOGS/dawa_ws:/app/dawa/src/utils/general/LOGS
